@@ -1,5 +1,11 @@
 # Operationalizing Machine Learning
 
+### Project performed using Udacity's VM
+Challenges:
+- VM times-out after every 4 hours
+- Data never gets stored.
+- Same steps are prepeated over-&-over-&-over everytime you start the VM
+  
 This is second of the three projects required for fulfillment of the Nanodegree Machine Learning Engineer with Microsoft Azure from Udacity. 
 In this project, we create, publish and consume a Pipeline. We also explore ML model deployment as an HTTP REST API endpoint, swagger API documentation, Apache benchmarking of the deployed endpoint and consumption of the endpoint using JSON documents as an HTTP POST request.
 
@@ -23,4 +29,27 @@ Before begining with our experiment,
 
 
 # Improvement Suggestions
+
+Registered Data and Respective AutoML Model
+`I created 2 runs with different experimentation on Models, took the one that got completed quickly.`  
+
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/registered-dataset.PNG)  
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/atuoML-model-completed.PNG)  
+
+`Best-Model & Application Insight is set to True while creating AutoML model in itself`  
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/best-model-screenshot-1.PNG)  
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/best-model-screenshot-2.PNG)  
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/application-insight-true.PNG)  
+
+`Logs & End-points results`  
+Ran logs via Azure-ML-Notebook instead from console as VM console was not responding.  
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/logs-py-screenshot.PNG)  
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/endpoint-data.png)  
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/endpoint-details.PNG)  
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/endpoint-result.PNG)  
+
+`Swagger UI and API documentation is up & running`  
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/swaggerUI.png)  
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/swagger-configs.PNG)  
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/swagger-best-model.PNG)  
 
