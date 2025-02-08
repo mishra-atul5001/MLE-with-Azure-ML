@@ -26,10 +26,6 @@ Before begining with our experiment,
 - Model is then consumed using endpoint.py. An optional benchmarking is done for the deployed model using Apache benchmarking, benchmark.sh is used here. `Step 10 + 11`
 
 # Key Steps
-
-
-# Improvement Suggestions
-
 Registered Data and Respective AutoML Model
 `I created 2 runs with different experimentation on Models, took the one that got completed quickly.`  
 
@@ -53,3 +49,9 @@ Ran logs via Azure-ML-Notebook instead from console as VM console was not respon
 ![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/swagger-configs.PNG)  
 ![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/swagger-best-model.PNG)  
 
+# Improvement Suggestions
+The current accuracy is already very high 0.91, however, for further improvement we can try following:
+
+- Perform deeper-EDA to identify misleading features.
+- Remove class imbalance in the exisiting data. The dataset used is highly imbalanced, hence our model maybe biased to one class.
+- Increase AutoML run duration. This would allow testing of a lot more models.
