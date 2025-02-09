@@ -54,6 +54,7 @@ Ran logs via Azure-ML-Notebook instead from console as VM console was not respon
 ![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/Screenshot%202025-02-09%20111555.png)  
 The below Endpoint Status is from very-latest run, performed on Organizational Azure-ML Subscription
 ![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/Screenshot%202025-02-09%20132812.png)
+![image](https://github.com/user-attachments/assets/6a1b2f30-bf9e-4581-961e-ec5e7dbcab2a)  
 
 # Improvement Suggestions
 The current accuracy is already very high 0.91, however, for further improvement we can try following:
