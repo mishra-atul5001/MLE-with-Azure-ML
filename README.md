@@ -49,6 +49,12 @@ Ran logs via Azure-ML-Notebook instead from console as VM console was not respon
 ![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/swagger-configs.PNG)  
 ![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/swagger-best-model.PNG)  
 
+`Use Jupyter Notebook aml-pipelines-with-automated-machine-learning-step.ipynb to create the pipeline.`
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/Screenshot%202025-02-09%20111528.png)  
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/Screenshot%202025-02-09%20111555.png)  
+The below Endpoint Status is from very-latest run, performed on Organizational Azure-ML Subscription
+![](https://github.com/mishra-atul5001/MLE-with-Azure-ML/blob/main/Screenshot%202025-02-09%20132812.png)
+
 # Improvement Suggestions
 The current accuracy is already very high 0.91, however, for further improvement we can try following:
 
