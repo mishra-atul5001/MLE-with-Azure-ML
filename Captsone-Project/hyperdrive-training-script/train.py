@@ -11,8 +11,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
 
 # Create TabularDataset using TabularDatasetFactory
-# Data is located at: "https://raw.githubusercontent.com/thom/azure-ml-engineer-capstone/main/data/heart_failure_clinical_records_dataset.csv"
-path = "https://raw.githubusercontent.com/thom/azure-ml-engineer-capstone/main/data/heart_failure_clinical_records_dataset.csv"
+# Data is located at: 'https://raw.githubusercontent.com/mishra-atul5001/MLE-with-Azure-ML/refs/heads/main/Captsone-Project/dataset/heart_failure_clinical_records_dataset.csv'
+path = 'https://raw.githubusercontent.com/mishra-atul5001/MLE-with-Azure-ML/refs/heads/main/Captsone-Project/dataset/heart_failure_clinical_records_dataset.csv'
 ds = TabularDatasetFactory.from_delimited_files(path=path)
 
 
