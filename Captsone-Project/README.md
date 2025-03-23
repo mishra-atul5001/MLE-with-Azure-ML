@@ -21,8 +21,6 @@
 - [Demo](#demo)
 - [Future work](#future-work)
 - [References](#references)
-- [Requirements](#requirements)
-- [License](#license)
 
 ## Introduction
 
